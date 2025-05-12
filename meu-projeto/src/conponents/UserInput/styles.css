@@ -1,0 +1,30 @@
+/* src\conponents\UserInput\style.css */
+
+.user-input h2{
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.user-input input[text="text"]{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.user-input button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 03.s ease;
+}
+
+.user-input button:hover{
+    background-color: #0056b3;
+}

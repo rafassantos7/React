@@ -1,0 +1,23 @@
+/* src\conponents\UserList\style.css */
+
+.user-list h2{
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.user-list ol{
+    list-style-type: decimal;
+    padding-left: 20px;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.user-list ol li{
+    padding:  8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.user-list ol li:last-child{
+    border-bottom: none;
+}
